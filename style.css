@@ -1,0 +1,75 @@
+*{
+   background-color:floralwhite ;
+
+}
+
+body{
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: larger;
+    font-weight: 300;
+    
+    padding: 20px;
+    background-color: bisque;
+    border: 20px;
+    border-color: black;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    
+    box-sizing: border-box;
+    overflow: hidden !important;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:tomato;
+    background-color: rgba(120, 200, 211, 0.541);
+    word-spacing: 5px;
+    padding: 50px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="radio"],
+select,textarea,
+input[type="date"],
+input[type="password"],
+input[type="email"]{
+    
+    padding: 12px;
+    border: solid;
+    border-color: black;
+    overflow: hidden !important;
+    
+}
+ fieldset{
+     background-color: antiquewhite;
+     font-style: oblique;
+     font-size: large;
+     font-weight: bolder;
+     border: solid;
+ }
+
+ input[type="submit"]{
+     border: none;
+     padding: 15px;
+     background-color: aquamarine;
+     width: 100%;
+     font-weight: bolder;
+     font-style: oblique;
+     font-size: larger;
+     text-transform: uppercase;
+     cursor: pointer;
+
+ }
+  
+ input[type="submit"]:hover{
+     background-color: bisque;
+ }
+
+ label,textarea{
+     display: block;
+     
+ }
